@@ -4,41 +4,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <div class="calculator">
-    <form>
-      <div class="display">
-        <input type="text" name="display" id="display">
-      </div>
+  <div class="calculator-container">
+    <form class="calculator">
       <div>
-        <input type="button" value="AC" class="operator" id="AC">
+        <input type="text" name="display" id="display" class="display">
+      </div>
+      <div class="row">
+        <input type="button" value="AC" class="operator" id="AC" class="">
         <input type="button" value="DE" class="operator" id="DE">
-        <input type="button" value="." id=".">
-        <input type="button" value="/" id="/">
+        <input type="button" value="." id="."  class="numb">
+        <input type="button" value="/" id="/" class="numb">
       </div>
-      <div>
-        <input type="button" value="7" id="7">
-        <input type="button" value="8" id="8">
-        <input type="button" value="9" id="9">
+      <div class="row">
+        <input type="button" value="7" id="7" class="numb">
+        <input type="button" value="8" id="8" class="numb">
+        <input type="button" value="9" id="9" class="numb">
         <input type="button" value="*" class="operator" id="*">
       </div>
-      <div>
-        <input type="button" value="4" id="4">
-        <input type="button" value="5" id="5">
-        <input type="button" value="6" id="6">
+      <div class="row">
+        <input type="button" value="4" id="4" class="numb">
+        <input type="button" value="5" id="5" class="numb">
+        <input type="button" value="6" id="6" class="numb">
         <input type="button" value="-" class="operator" id="-">
       </div>
-      <div>
-        <input type="button" value="1" id="1">
-        <input type="button" value="2" id="2">
-        <input type="button" value="3" id="3">
+      <div class="row">
+        <input type="button" value="1" id="1" class="numb">
+        <input type="button" value="2" id="2" class="numb">
+        <input type="button" value="3" id="3" class="numb">
         <input type="button" value="+" class="operator" id="+">
       </div>
-      <div>
-        <input type="button" value="00" id="00">
-        <input type="button" value="0" id="0">
+      <div class="row">
+        <input type="button" value="00" id="00" class="numb">
+        <input type="button" value="0" id="0" class="numb">
         <input type="button" value="="class="equal" id="=">
        
       </div>
