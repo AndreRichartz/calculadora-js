@@ -59,8 +59,21 @@
     color: white;
     border: none;
     font-size: 1.6rem;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .equal {
     background-color: darkgoldenrod;
 }
+
+.operator:hover,
+.numb:hover,
+.equal:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
